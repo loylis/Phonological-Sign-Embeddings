@@ -42,4 +42,4 @@ lisa.loy@uni-hamburg.de
 
 # License
 
-This project is licensed under the Creative Commons Attribution License - see the LICENSE.md file for detail.
+This project is licensed under the Creative Commons Attribution 4.0 License - see the LICENSE.md file for detail.
