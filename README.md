@@ -7,21 +7,29 @@ There is growing interest in using phonetic word embeddings as a tool for lingui
 
 This repository contains three different Python scripts: 
 
+- word2vec.py => to train embeddings using the word2vec architecture
+- ohesvd.py => to train embeddings using one-hot-encoding + truncated singular value decomposition
+- FNN.py => to train embeddings using a feedforward neural network 
+
 # Getting Started
 
 ## Dependencies
 
 Before running the code in this repository, the following libraries need to be installed:
 
-- Pandas
-- Numpy
-- Scikit-Learn
-- Matplotlib
-- Seaborn
-- Gensim
-- Pytorch
+- Pandas 2.2.3
+- Numpy 1.26.4
+- Scikit-Learn 1.6.1
+- Matplotlib 3.9.4
+- Seaborn 0.13.2
+- Gensim 4.3.3
+- Pytorch 2.6.0
 
-All scripts were originally written to be run in VS code. Therefore, to be able to run the scripts from the command line, the scripts need to be slightly adjusted.
+All scripts were originally written to be run in Visual Studio Code with Python 3.9.6. Therefore, to be able to run the scripts from the command line, the scripts need to be slightly adjusted.
+
+*** Disclaimer ***
+
+The scripts in this repository have been cleaned and optimized with the help of the inbuilt GitHub Copilot functionality in Visual Studio Code. All ideas and the general code architecture are the author's own and Copilot was only used to improve, not to generate.
 
 ## word2vec.py
 
